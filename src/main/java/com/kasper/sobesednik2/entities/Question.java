@@ -15,7 +15,8 @@ public class Question {
 
     @Column(name = "answer",length = 7000)
     private String answer;
-
+    @Transient
+    private int score;
 
     public Question() {
     }

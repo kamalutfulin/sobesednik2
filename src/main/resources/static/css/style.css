@@ -1,0 +1,27 @@
+h1 {
+    color:#0000FF;
+    font-size: 30px;
+}
+
+h2 {
+    color: #ff0000;
+}
+#Question {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+#Answer {
+    background-color: lightgrey;
+    color: black;
+    padding: 40px;
+}
+table {
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 5px;
+    font-size: 30px;
+}

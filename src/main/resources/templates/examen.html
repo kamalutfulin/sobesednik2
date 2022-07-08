@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Examen</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+</head>
+<body>
+<br/><br/>
+<div>
+    <center>
+    <table border="1">
+        <tr>
+            <th>Вопрос</th>
+        </tr>
+        <tr id="Question">
+             <td th:utext="${question.question}">... </td>
+
+        </tr>
+        <tr>
+            <th>Ответ</th>
+        </tr>
+        <tr id="Answer">
+            <td th:utext="${question.answer}">...</td>
+        </tr>
+    </table>
+    </center>
+</div>
+</body>
+</html>
